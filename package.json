@@ -1,0 +1,18 @@
+{
+  "name": "myfirstproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "rerun": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "logananth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mango": "^0.0.4",
+    "mongodb": "^3.7.2",
+    "nodemon": "^2.0.20"
+  }
+}

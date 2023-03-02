@@ -1,0 +1,83 @@
+// to create a own server we need to :
+
+// http is compulsiarly nedd so::
+// let http =require("http")
+
+// let myserver=http.createServer () :to create a server  ,we need to send a function in the brackets ,so function(request,respond)
+
+// we need to listen the server : myserver.listen(3000)
+
+// 3000: is just the port number .
+
+// we can also check the pages:
+// / refers to home page
+// /about refers to about page
+//  if(req.url=="/"){
+//     res.end("frstpage")
+//  }
+//  if(req.url=="/about"){
+//     res.end("aboutpage")
+//  }
+
+//  we created a server using node its take loot of time and code if lines ,so we are going to  create the server using express node.which contains inbuilt packages
+  
+//  http methods : 
+//  get 
+//  post
+//  put 
+//  delete
+ 
+
+// let name="My fisrt project"
+// console.log(name)
+
+
+// let http=require("http")
+
+// let app=http.createServer(function(req,res){
+//     res.enn("hi")
+// })
+// 
+
+// let http=require("http")
+// let app=http.createServer(function(req,res){
+//     if(req.url=="/"){
+//         res.end("home page")
+//     }
+//     else if(req.url=="/about"){
+//         res.end("about page")
+//     }
+//     else{
+//         res.end("sry doesnt exist")
+//     }
+// })
+
+
+// let express=require("express")
+
+// let app=express()
+// app.use(express.urlencoded({extended:false}))
+// app.get('/',function(req,res){
+//     res.send(`<form action ='/answer' method = "POST">
+//     <p> what is 2+2?  </p>
+//     <input name="answer" autocomplete="off">
+//     <button >Submit</button>
+//       </form>`)
+// })
+
+// app.post('/answer',function(req,res){
+//     if(req.body.answer == 4){
+//         res.send(`<p> correct</p><a href="/">touch me to back home</a>`)
+//     }
+//     else{
+//         res.send(`<p>sry</p><a href="/">touch me to back home</a> `)
+//     }
+
+// })
+// app.listen(3000)
+
+
+
+
+
+ 
